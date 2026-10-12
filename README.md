@@ -49,7 +49,7 @@ recipes-search/
 ├── search/            # Lógica de búsqueda y estrategia de ranking
 ├── llm/               # Integración con el servidor LLM (RAG)
 ├── web/               # Interfaz web
-├── main.py
+├── main.py          
 └── README.md
 ```
 
@@ -61,7 +61,7 @@ recipes-search/
 - **Scrapy** — rastreo y extracción de las fuentes
 - **Elasticsearch** — índice y estrategia de búsqueda (BM25 + campos ponderados)
 - **LLM del servidor de la asignatura** — generación de respuestas RAG
-- **Framework web** — _por definir_ (Flask / FastAPI + frontend)
+- **Web** — _por definir_
 
 ---
 
@@ -70,48 +70,33 @@ recipes-search/
 ### Requisitos previos
 
 - Python 3.10+
-- Elasticsearch 8.x en ejecución local (`localhost:9200`)
+- Elasticsearch 8.x en ejecución local
 - Credenciales del servidor LLM de la asignatura en `.env` (no incluidas en el repo)
 
 ### Instalación
 
+Todos los comandos se ejecutan desde la **raíz del repositorio**.
+ 
 ```bash
+# 1. Clonar el repositorio
+git clone https://github.com/nathcarnevalli/recipes-search.git
+cd recipes-search
+ 
+# 2. Crear el entorno virtual (aísla las dependencias del proyecto)
+python3 -m venv .venv
+ 
+# 3. Activarlo (hay que repetirlo en cada terminal nueva)
+source .venv/bin/activate        # Linux / macOS / WSL
+# .venv\Scripts\activate         # Windows
+ 
+# 4. Instalar las dependencias
 pip install -r requirements.txt
+ 
+# 5. Comprobar que Scrapy está disponible
+scrapy version
 ```
-
-### 1. Crawling
-
-```bash
-# Fuente 1
-scrapy crawl <spider1> -o data/raw/source1.jsonl
-
-# Fuente 2
-scrapy crawl <spider2> -o data/raw/source2.jsonl
-```
-
-### 2. Preparación de datos
-
-```bash
-python indexer/prepare.py
-```
-
-Unifica las dos fuentes en un esquema común con los campos: `id`, `title`, `ingredients`, `instructions`, `url`, `source`.
-
-### 3. Indexación
-
-```bash
-python indexer/index.py
-```
-
-Crea el índice con el mapping definido y carga los documentos en Elasticsearch.
-
-### 4. Aplicación web
-
-```bash
-python main.py
-```
-
-La interfaz estará disponible en `http://localhost:5000`.
+ 
+Si se añade una dependencia nueva, hay que actualizar el archivo con `pip freeze > requirements.txt`.
 
 ## Autores
 
