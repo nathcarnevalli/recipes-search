@@ -1,0 +1,35 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+env/
+
+# Scrapy
+*.log
+.scrapy/
+
+# Data (can be large and regenerated)
+data/raw/
+data/processed/
+
+# Elasticsearch snapshots
+snapshots/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
