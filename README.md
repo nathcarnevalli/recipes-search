@@ -8,14 +8,14 @@ Buscador web sobre recetas tradicionales de Galicia: crawling de dos fuentes, in
 
 ## Dominio
 
-Las recetas gallegas se caracterizan por ingredientes frescos del mar y la tierra: mariscos, pescados, verduras, pan, aceite de oliva y hierbas aromáticas. El buscador permite encontrar recetas por nombre, ingrediente, técnica o tipo de plato.
+Recetas tradicionales gallegas, escritas en gallego. Hoy están repartidas entre blogs y sitios pequeños; el buscador permite encontrarlas en un solo lugar por nombre (tarta de Santiago) o por ingrediente (castañas).
 
 **Fuentes de datos:**
 
-| Fuente | URL | Tipo de contenido |
-|--------|-----|------------------|
-| Kukinhas | https://kukinhas.com | Blog de recetas gallegas con estructura por fecha |
-| Receitario | https://receitario.gal | Repositorio de recetas tradicionales gallegas |
+| Fuente | Tipo | Semilla | Recetas |
+|--------|------|---------|---------|
+| [kukinhas.com](https://kukinhas.com) | Blog de una autora, textos largos | https://kukinhas.com/receitas-tradicionais/ | ~46 |
+| [receitario.gal](https://receitario.gal) | Wiki colaborativo, recetas breves | https://receitario.gal/category/receitas-tradicionais/ | 95 |
 
 ---
 
@@ -49,7 +49,7 @@ recipes-search/
 ├── search/            # Lógica de búsqueda y estrategia de ranking
 ├── llm/               # Integración con el servidor LLM (RAG)
 ├── web/               # Interfaz web
-├── main.py          
+├── main.py
 └── README.md
 ```
 
@@ -59,9 +59,9 @@ recipes-search/
 
 - **Python 3.x** — crawling, procesamiento e indexación
 - **Scrapy** — rastreo y extracción de las fuentes
-- **Elasticsearch** — índice y estrategia de búsqueda (BM25 + campos ponderados)
+- **Elasticsearch** — índice y estrategia de búsqueda (BM25 + campos ponderados, analizador gallego)
 - **LLM del servidor de la asignatura** — generación de respuestas RAG
-- **Web** — _por definir_
+- **Framework web** — _por definir_
 
 ---
 
@@ -76,30 +76,31 @@ recipes-search/
 ### Instalación
 
 Todos los comandos se ejecutan desde la **raíz del repositorio**.
- 
+
 ```bash
 # 1. Clonar el repositorio
 git clone https://github.com/nathcarnevalli/recipes-search.git
 cd recipes-search
- 
-# 2. Crear el entorno virtual (aísla las dependencias del proyecto)
+
+# 2. Crear el entorno virtual
 python3 -m venv .venv
- 
-# 3. Activarlo (hay que repetirlo en cada terminal nueva)
+
+# 3. Activarlo
 source .venv/bin/activate        # Linux / macOS / WSL
 # .venv\Scripts\activate         # Windows
- 
+
 # 4. Instalar las dependencias
 pip install -r requirements.txt
- 
-# 5. Comprobar que Scrapy está disponible
-scrapy version
+
+# 5. Ejecutar crawlers
+scrapy runspider crawlers/exploracion/muestra_kukinhas.py -O data/muestras/muestra_kukinhas.json
+scrapy runspider crawlers/exploracion/muestra_receitario.py -O data/muestras/muestra_receitario.json
 ```
- 
-Si se añade una dependencia nueva, hay que actualizar el archivo con `pip freeze > requirements.txt`.
+
+---
 
 ## Autores
 
-- Nathalia Mesquita Carnevalli
+- Nathalia
 - Rafael
 - Alex

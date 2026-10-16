@@ -1,28 +1,36 @@
 import json
+import re
 import scrapy
 
 class MuestraKukinhasSpider(scrapy.Spider):
     name = "muestra_kukinhas"
+    allowed_domains = ["kukinhas.com"]
     start_urls = ["https://kukinhas.com/receitas-tradicionais/"]
 
     custom_settings = {
         "USER_AGENT": "RecetasGallegasBot/0.1 (+https://github.com/nathcarnevalli/recipes-search)",
-        "ROBOTSTXT_OBEY": True,       # respetar robots.txt
-        "DOWNLOAD_DELAY": 1,          # 1 segundo entre peticiones
-        "CLOSESPIDER_ITEMCOUNT": 10,  
-        "FEED_EXPORT_ENCODING": "utf-8",  # conservar tildes y eñes en el JSON
+        "ROBOTSTXT_OBEY": True,
+        "DOWNLOAD_DELAY": 1,
+        "FEED_EXPORT_ENCODING": "utf-8",
     }
 
     def parse(self, response):
-        #Página índice: sigue los enlaces a recetas del contenido principal.
         for enlace in response.css("div.entry-content a::attr(href)").getall():
-            yield response.follow(enlace, callback=self.parse_receta)
+            if re.search(r'/\d{4}/\d{2}/', enlace):
+                yield response.follow(enlace, callback=self.parse_receta)
+
+        next_page = response.css("a.next::attr(href)").get()
+        if next_page:
+            yield response.follow(next_page, callback=self.parse)
 
     def parse_receta(self, response):
         lineas = self.extraer_lineas(response)
 
+        if not any(l.lower().startswith("ingredient") for l in lineas):
+            return
+
         yield {
-            "url": response.url,  # URL final, después de las redirecciones
+            "url": response.url,
             "sitio": "kukinhas",
             "titulo": response.css("h1::text").get(),
             "fecha_publicacion": self.extraer_fecha(response),

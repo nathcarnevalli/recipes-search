@@ -4,6 +4,7 @@ import scrapy
 
 class MuestraReceitarioSpider(scrapy.Spider):
     name = "muestra_receitario"
+    allowed_domains = ["receitario.gal"]
     start_urls = ["https://receitario.gal/category/receitas-tradicionais/"]
 
     custom_settings = {
@@ -13,13 +14,16 @@ class MuestraReceitarioSpider(scrapy.Spider):
         "CONCURRENT_REQUESTS_PER_DOMAIN": 1,  
         "AUTOTHROTTLE_ENABLED": True,        
         "RETRY_TIMES": 5, 
-        "CLOSESPIDER_ITEMCOUNT": 10,
         "FEED_EXPORT_ENCODING": "utf-8",
     }
 
     def parse(self, response):
         for enlace in response.css("ul.title-list li.title-list-item a::attr(href)").getall():
             yield response.follow(enlace, callback=self.parse_receta)
+
+        next_page = response.css("a.next::attr(href)").get()
+        if next_page:
+            yield response.follow(next_page, callback=self.parse)
 
     def parse_receta(self, response):
         articulo = self.extraer_articulo_jsonld(response)
@@ -41,9 +45,13 @@ class MuestraReceitarioSpider(scrapy.Spider):
                 datos = json.loads(bloque)
             except json.JSONDecodeError:
                 continue
+            if not isinstance(datos, dict):
+                continue
             for nodo in datos.get("@graph", []):
                 if nodo.get("@type") == "Article":
                     return nodo
+            if datos.get("@type") == "Article":
+                return datos
         return {}
 
     def como_lista(self, valor):
