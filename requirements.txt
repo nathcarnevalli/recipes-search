@@ -42,3 +42,9 @@ urllib3==2.8.0
 w3lib==2.5.0
 yarl==1.25.1
 zope.interface==8.6
+elastic-transport==8.19.0
+elasticsearch==8.19.3
+python-dateutil==3.0.0
+six==1.17.0
+tzdata==2026.5
+python-dotenv==1.2.4

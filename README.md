@@ -14,8 +14,21 @@ Recetas tradicionales gallegas, escritas en gallego. Hoy están repartidas entre
 
 | Fuente | Tipo | Semilla | Recetas |
 |--------|------|---------|---------|
-| [kukinhas.com](https://kukinhas.com) | Blog de una autora, textos largos | https://kukinhas.com/receitas-tradicionais/ | ~46 |
-| [receitario.gal](https://receitario.gal) | Wiki colaborativo, recetas breves | https://receitario.gal/category/receitas-tradicionais/ | 95 |
+| [kukinhas.com](https://kukinhas.com) | Blog de una autora, textos largos | https://kukinhas.com/receitas-tradicionais/ 
+| [receitario.gal](https://receitario.gal) | Wiki colaborativo, recetas breves | https://receitario.gal/category/receitas-tradicionais/ | 94 |
+
+**Esquema común** (el mismo en las dos fuentes):
+
+| Campo | Descripción |
+|-------|-------------|
+| `recipe_id` | Identificador estable: SHA-1 de la URL (16 caracteres) |
+| `title` | Título de la receta |
+| `ingredients` | Lista de ingredientes |
+| `preparation` | Texto de la preparación |
+| `url` | URL de la receta |
+| `source` | Sitio de origen (`Kukinhas`, `Receitario`) |
+
+**Receitario.** El spider ([crawlers/receitario_spider.py](crawlers/receitario_spider.py)) recorre el listado de la categoría, sigue la paginación y entra en cada receta. Cada receta separa sus secciones con un `<h2>`: el spider reparte las líneas en `ingredients` o `preparation` según el encabezado ("Ingredientes", "Preparación") e ignora el resto (historia, notas). No guarda las páginas que no tienen ingredientes o preparación, como el caldo de cocido. Con un `DOWNLOAD_DELAY` de 2 s el sitio devolvía errores 429, por lo que se usa 4 s.
 
 ---
 
@@ -23,9 +36,6 @@ Recetas tradicionales gallegas, escritas en gallego. Hoy están repartidas entre
 
 ```
 Crawlers (Scrapy)
-      │
-      ▼
-Preparación de datos (limpieza, unificación de esquema)
       │
       ▼
 Indexación (Elasticsearch)
@@ -49,7 +59,7 @@ recipes-search/
 ├── search/            # Lógica de búsqueda y estrategia de ranking
 ├── llm/               # Integración con el servidor LLM (RAG)
 ├── web/               # Interfaz web
-├── main.py
+├── main.py            # Rastrea las fuentes e indexa las recetas
 └── README.md
 ```
 
@@ -92,15 +102,38 @@ source .venv/bin/activate        # Linux / macOS / WSL
 # 4. Instalar las dependencias
 pip install -r requirements.txt
 
-# 5. Ejecutar crawlers
-scrapy runspider crawlers/exploracion/muestra_kukinhas.py -O data/muestras/muestra_kukinhas.json
-scrapy runspider crawlers/exploracion/muestra_receitario.py -O data/muestras/muestra_receitario.json
+# 5. Rastrear las dos fuentes e indexar las recetas en Elasticsearch
+python main.py
+```
+
+`main.py` rastrea las dos fuentes a la vez (generan `data/kukinhas.json` y `data/receitario.json`), comprueba que los archivos son válidos y lanza el indexador. El rastreo de receitario tarda unos 7 minutos por el retardo entre peticiones. Elasticsearch debe estar en ejecución antes de empezar.
+
+Para reindexar sin volver a rastrear, usando los JSON que ya existen en `data/`:
+
+```bash
+python main.py --sin-crawl
+```
+
+Cada paso también se puede ejecutar por separado:
+
+```bash
+scrapy runspider crawlers/kukinhas_spider.py
+scrapy runspider crawlers/receitario_spider.py
+python indexer/indexer.py
+```
+
+No se deben ejecutar dos rastreos de la misma fuente a la vez: escriben en el mismo archivo y lo corrompen.
+
+Los spiders de exploración (muestras pequeñas para validar las fuentes) siguen disponibles:
+
+```bash
+scrapy runspider crawlers/muestras/muestra_kukinhas.py -O data/muestras/muestra_kukinhas.json
+scrapy runspider crawlers/muestras/muestra_receitario.py -O data/muestras/muestra_receitario.json
 ```
 
 ---
 
 ## Autores
-
 - Nathalia
 - Rafael
 - Alex

@@ -1,0 +1,845 @@
+[
+{
+  "recipe_id": "1a9874b6469fdc2f",
+  "title": "Xelea de Marmelo",
+  "ingredients": [
+    "1 kg de marmeleiro",
+    "800 g de azucre por cada litro de zume",
+    "Zume de 1 limón"
+  ],
+  "preparation": "Cocer os marmeleiros sen pelar en auga ata tenros. Coar o zume polo pano. Medir o zume e engadir o mesmo peso en azucre. Cocer ata punto de xelea. Envasar.",
+  "url": "https://receitario.gal/xelea-de-marmelo/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "ced4a136712022e0",
+  "title": "Viño de Froitas",
+  "ingredients": [
+    "1 litro viño branco",
+    "Pexegos, cereixas ou froitos vermellos (500 g)",
+    "Azucre, canela, cravos"
+  ],
+  "preparation": "Macerar as froitas no viño con azucre e especias. Gardar en tarro tapado 1 semana. Filtrar. Servir moi frío.",
+  "url": "https://receitario.gal/vino-de-froitas/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "45822c3317f1e4f2",
+  "title": "Unto Frito con Cachelos",
+  "ingredients": [
+    "100 g unto galego",
+    "4 patacas cocidas en cachelos",
+    "Sal, pementón"
+  ],
+  "preparation": "Fundir o unto nunha tixola. Fritar os cachelos no unto. Espolvorear pementón. Servir moi quentes.",
+  "url": "https://receitario.gal/unto-frito-con-cachelos/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "fb3377bdcfa890a8",
+  "title": "Tortilla de Patatas á Navarra",
+  "ingredients": [
+    "4 ovos, 3 patacas",
+    "Pementos do piquillo, cebola, aceite, sal"
+  ],
+  "preparation": "Fritar patacas e cebola en aceite. Engadir pementos en tiras. Bater ovos. Mesturar todo. Cociñar como tortilla.",
+  "url": "https://receitario.gal/tortilla-de-patatas-a-navarra/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "6abc40556c5c868d",
+  "title": "Tomates en Conserva",
+  "ingredients": [
+    "2 kg tomates maduros",
+    "Sal, aceite, allo, albahaca"
+  ],
+  "preparation": "Escaldar e pelar os tomates. Triturar ou deixar enteiros. Ferver en botes esterilizados. Esterilizar ao baño maría 20 min.",
+  "url": "https://receitario.gal/tomates-en-conserva/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "629367bdf2b1bcbc",
+  "title": "Tarta de Santiago",
+  "ingredients": [
+    "250 g de améndoa moída crúa (sen pelar)",
+    "250 g de azucre",
+    "4 ovos enteiros",
+    "Raiadura de 1 limón",
+    "1 culleradiña de canela en po",
+    "Azucre glace e a plantilla da Cruz de Santiago para decorar",
+    "Manteiga e fariña para o molde"
+  ],
+  "preparation": "Precalentar o forno a 180°C. Untar un molde redondo de 24 cm con manteiga e fariña. Nunha cunca grande, mesturar a améndoa moída co azucre, a canela e a raiadura de limón. Engadir os ovos un a un, remexendo ben entre cada adición. Verter a masa no molde. Debe quedar unha capa de uns 2-3 cm. Cocer 30-35 minutos ata que a superficie estea dourada e o centro firme. Deixar arrefriar completamente antes de desmoldar. Colocar a plantilla da Cruz de Santiago no centro e espolvorear azucre glace. Retirar a plantilla con coidado.",
+  "url": "https://receitario.gal/tarta-de-santiago/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "e78000a19695dd56",
+  "title": "Sopa de Vixilia con Ovos",
+  "ingredients": [
+    "1 litro de caldo de verduras",
+    "4 ovos",
+    "100 g de pan do día anterior en rebandas",
+    "2 dentes de allo, aceite de oliva",
+    "Sal, pementa, pementón"
+  ],
+  "preparation": "Tostar o pan en aceite con allo ata dourar. Engadir o caldo quente e o pementón. Cando ferva, escalfar os ovos directamente na sopa. Servir con un ovo enteiro por persoa.",
+  "url": "https://receitario.gal/sopa-de-vixilia-con-ovos/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "a0ca759208b7a927",
+  "title": "Sopa de Tomate con Albahaca",
+  "ingredients": [
+    "1 kg de tomates maduros",
+    "Albahaca fresca, allo, aceite, sal, azucre"
+  ],
+  "preparation": "Asar os tomates ao forno 30 min. Triturar con allo e albahaca. Coar. Cocer 10 min. Servir con aceite de oliva e albahaca fresca.",
+  "url": "https://receitario.gal/sopa-de-tomate-con-albahaca/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "8788072c6f5c4217",
+  "title": "Sopa de Semola",
+  "ingredients": [
+    "1 litro de caldo de polo ou de carne",
+    "60-80 g de sémola de trigo fina",
+    "Sal ao gusto"
+  ],
+  "preparation": "Levar o caldo a ebulición. Botar a sémola en forma de chuvia sen deixar de remexer para evitar grumos. Cocer 8-10 minutos a lume suave. Servir moi quente.",
+  "url": "https://receitario.gal/sopa-de-semola/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "d1c1f33f9e294574",
+  "title": "Sopa de Restos",
+  "ingredients": [
+    "Caldo sobrante, verduras cocidas",
+    "Fideos ou arroz, sal, perexil"
+  ],
+  "preparation": "Ferver o caldo. Engadir verduras en anacos e pasta. Cocer 8 min. Servir con perexil.",
+  "url": "https://receitario.gal/sopa-de-restos/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "71c86e77e8900e1f",
+  "title": "Sopa de Remolacha Quente",
+  "ingredients": [
+    "4 remolachas, 1 col, 1 cebola",
+    "Caldo, vinagre, azucre, sal",
+    "Nata azeda para servir"
+  ],
+  "preparation": "Cocer remolacha e col con cebola en caldo. Engadir vinagre e azucre. Triturar parcialmente. Servir con culler de nata azeda.",
+  "url": "https://receitario.gal/sopa-de-remolacha-quente/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "16274f1e64b7d0b8",
+  "title": "Sopa de Remolacha con Laranxa",
+  "ingredients": [
+    "4 remolachas cocidas, 1 laranxa (zume)",
+    "1 cebola, caldo, aceite, sal"
+  ],
+  "preparation": "Pochar cebola. Engadir remolachas. Incorporar caldo e zume de laranxa. Triturar. Coar. Servir quente ou frío.",
+  "url": "https://receitario.gal/sopa-de-remolacha-con-laranxa/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "218d000082e6cecb",
+  "title": "Sopa de Pan con Queixo",
+  "ingredients": [
+    "4 rebandas de pan do día anterior",
+    "100 g de queixo Tetilla",
+    "1 litro de caldo, aceite, allo, sal"
+  ],
+  "preparation": "Torrar o pan con allo e aceite. Colocar en cazoletas con caldo quente. Cubrir con queixo Tetilla. Gratinar ata fundir o queixo.",
+  "url": "https://receitario.gal/sopa-de-pan-con-queixo/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "53f944424304841a",
+  "title": "Sopa de Lentellas Rojas con Coco",
+  "ingredients": [
+    "300 g de lentellas rojas",
+    "200 ml de leite de coco, 1 cebola",
+    "Curry, xenxibre, allo, aceite, sal"
+  ],
+  "preparation": "Pochar cebola, allo e xenxibre. Engadir curry e lentellas. Cubrir con auga. Cocer 25 min. Incorporar leite de coco. Triturar.",
+  "url": "https://receitario.gal/sopa-de-lentellas-rojas-con-coco/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "66258d5e50f88675",
+  "title": "Sopa de Fideos con Polo",
+  "ingredients": [
+    "1 litro de caldo de polo",
+    "100 g de fideos finos",
+    "Polo desfiado, perexil, sal"
+  ],
+  "preparation": "Ferver o caldo de polo. Engadir os fideos. Cocer 4 min. Incorporar o polo desfiado. Servir con perexil.",
+  "url": "https://receitario.gal/sopa-de-fideos-con-polo/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "4db7fe54fb19455b",
+  "title": "Sopa de Fideos",
+  "ingredients": [
+    "1 litro de caldo de polo ou carne",
+    "80-100 g de fideos finos (cabello de anxo)",
+    "Sal ao gusto",
+    "Perexil fresco picado para servir"
+  ],
+  "preparation": "Levar o caldo a ebulición. Rectificar de sal. Engadir os fideos e cocer o tempo indicado no paquete (3-5 minutos para fideos finos). Servir inmediatamente con perexil fresco.",
+  "url": "https://receitario.gal/sopa-de-fideos/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "89120888790fd758",
+  "title": "Sopa de Cogomelos con Nata",
+  "ingredients": [
+    "500 g de cogomelos mixtos",
+    "1 litro de caldo, 200 ml de nata",
+    "Chalota, manteiga, viño branco, sal"
+  ],
+  "preparation": "Saltear chalota e cogomelos en manteiga. Engadir viño. Reducir. Incorporar caldo. Cocer 20 min. Triturar parcialmente. Engadir nata.",
+  "url": "https://receitario.gal/sopa-de-cogomelos-con-nata/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "0ae59a9781357b17",
+  "title": "Sopa de Cebola Asiática",
+  "ingredients": [
+    "1 litro de caldo de peixe ou polo",
+    "2 culleradas de miso, 100 g de tofu",
+    "Ceboliño, algas, sal"
+  ],
+  "preparation": "Quentar o caldo sen ferver. Disolver o miso no caldo. Engadir tofu en dados e algas. Servir con ceboliño picado.",
+  "url": "https://receitario.gal/sopa-de-cebola-asiatica/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "db2c02dc68811237",
+  "title": "Sopa de Cebola ao Viño",
+  "ingredients": [
+    "4 cebolas grandes en xuliana, 1 vaso de viño branco",
+    "1 litro de caldo de carne, manteiga, sal, pementa"
+  ],
+  "preparation": "Caramelizar a cebola en manteiga 40 min a lume moi suave. Engadir viño e reducir. Incorporar o caldo. Cocer 15 min. Servir con pan tostado e queixo gratinado.",
+  "url": "https://receitario.gal/sopa-de-cebola-ao-vino/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "85559199ce8bdce6",
+  "title": "Sopa de Castañas e Porco",
+  "ingredients": [
+    "300 g de castañas cocidas",
+    "200 g de costela de porco",
+    "Caldo, cebola, allo, loureiro, sal"
+  ],
+  "preparation": "Cocer a costela en caldo 30 min. Incorporar castañas e cebola. Cocer 15 min máis. Triturar a metade para espesar. Rectificar.",
+  "url": "https://receitario.gal/sopa-de-castanas-e-porco/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "52ca43925be219af",
+  "title": "Sopa de Arroz",
+  "ingredients": [
+    "1 litro de caldo de polo ben limpo",
+    "80 g de arroz de gran redondo",
+    "Sal ao gusto",
+    "Unhas pingas de limón (opcional)"
+  ],
+  "preparation": "Levar o caldo a ebulición. Engadir o arroz lavado. Cocer 18-20 minutos sen tapar. Servir moi quente. Para enfermos, pasar polo coador se se desexa máis lixeiro.",
+  "url": "https://receitario.gal/sopa-de-arroz/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "c3c4e8c77e855ed6",
+  "title": "Sopa de Allos con Ovos Escalfados",
+  "ingredients": [
+    "8 dentes allo laminados, 4 rebandas de pan",
+    "1 litro caldo, pementón, aceite, sal",
+    "4 ovos frescos"
+  ],
+  "preparation": "Dourar allo en aceite. Engadir pan e pementón. Incorporar caldo. Cocer 10 min. Escalfar os ovos directamente na sopa. Servir moi quente.",
+  "url": "https://receitario.gal/sopa-de-allos-con-ovos-escalfados/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "a346302ed917d19e",
+  "title": "Sopa de Allo Negro",
+  "ingredients": [
+    "1 cabeza de allo, 4 rebandas de pan do día anterior",
+    "1 litro de caldo, pementón afumado, aceite, sal, 4 ovos"
+  ],
+  "preparation": "Asar a cabeza de allo enteira ao forno 40 min. Espremer a polpa. Refogar o pan partido co aceite e a polpa de allo. Engadir pementón e o caldo. Cocer 10 min. Escalfar os ovos na sopa. Servir.",
+  "url": "https://receitario.gal/sopa-de-allo-negro/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "f249fbd6209768cc",
+  "title": "Sopa de Allo",
+  "ingredients": [
+    "8-10 dentes de allo laminados",
+    "4 rebandas de pan de días anteriores",
+    "4 ovos",
+    "1 litro de caldo de carne ou auga",
+    "Pementón doce e picante",
+    "Aceite de oliva, sal"
+  ],
+  "preparation": "Dorar o allo laminado en aceite a lume medio sen que se queime. Engadir o pan e refogar ata que absorba o aceite. Retirar do lume e engadir o pementón (fóra do lume para que non se queime). Incorporar o caldo quente. Cocer 10 minutos. Escalfar os ovos directamente na sopa. Servir inmediatamente.",
+  "url": "https://receitario.gal/sopa-de-allo/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "1112006470e0fa1f",
+  "title": "Sardiñas á Prancha",
+  "ingredients": [
+    "Sardiñas frescas (6-8 por persoa)",
+    "Sal groso",
+    "Aceite de oliva (opcional)",
+    "Pan de millo para acompañar"
+  ],
+  "preparation": "Picadillo era contundente: a sardiña fresca non necesita case nada. O segredo está na calidade do peixe e na temperatura da prancha. Limpar as sardiñas sen quitarlles as escamas (protexen a carne do calor directo). Salar con sal groso por fóra. Quentar a prancha ou grella a lume alto ata que estea moi quente. Colocar as sardiñas e non mover ata que a pel se solte soa (uns 3-4 minutos). Dar a volta e cociñar 2-3 minutos máis polo outro lado. Servir inmediatamente sobre pan de millo que absorba os zumes.",
+  "url": "https://receitario.gal/sardinas-a-prancha/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "793fc035ee8d5f60",
+  "title": "Salsa Vinagreta",
+  "ingredients": [
+    "3 partes de aceite de oliva virxe extra por 1 de vinagre de viño",
+    "Sal e pementa negra recén moída",
+    "Cebola picada fina (opcional)",
+    "Perexil ou ceboliño picados"
+  ],
+  "preparation": "Disolver o sal no vinagre primeiro. Engadir o aceite e bater con tenedor ata emulsionar. Incorporar a pementa e as herbas. Usar inmediatamente ou axitar antes de cada uso.",
+  "url": "https://receitario.gal/salsa-vinagreta/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "b6f64549725edbc3",
+  "title": "Salsa Tártara Galega",
+  "ingredients": [
+    "200 g mahonesa caseira",
+    "Alcaparras, pepinillos, ceboliño, perexil",
+    "Sal, pementa"
+  ],
+  "preparation": "Picar alcaparras, pepinillos e herbas. Mesturar con mahonesa. Rectificar de sal. Servir moi fría con peixe.",
+  "url": "https://receitario.gal/salsa-tartara-galega/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "a79fd90e37ac6064",
+  "title": "Salsa Tártara",
+  "ingredients": [
+    "200 g de mahonesa",
+    "2 culleradas de alcaparras picadas",
+    "2 pepinillos picados, ceboliño, perexil"
+  ],
+  "preparation": "Picar moi finos: alcaparras, pepinillos, ceboliño e perexil. Mesturar con mahonesa. Rectificar de sal. Servir fría con peixe fritido.",
+  "url": "https://receitario.gal/salsa-tartara/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "a1c84f38721458bc",
+  "title": "Salsa Mahonesa",
+  "ingredients": [
+    "1 ovo enteiro (a temperatura ambiente)",
+    "200 ml de aceite de oliva suave ou xirasol",
+    "Zumo de medio limón ou unha cullerada de vinagre",
+    "Sal ao gusto"
+  ],
+  "preparation": "Colocar o ovo no fondo do vaso da batidora co sal e o limón. Botar o aceite por encima sen mover. Introducir a batidora ata o fondo e bater sen mover ata que emulsione. Logo levantar a batidora lentamente incorporando o aceite da superficie.",
+  "url": "https://receitario.gal/salsa-mahonesa/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "17e3b43a5edd8126",
+  "title": "Salsa Española",
+  "ingredients": [
+    "500 ml de caldo de carne concentrado",
+    "1 cebola, 1 cenoria, 1 talo de apio",
+    "2 culleradas de fariña tostada",
+    "Aceite, loureiro, tomillo",
+    "Sal e pementa"
+  ],
+  "preparation": "Pochar a verdura en aceite ata dourar ben. Engadir a fariña e tostar mexendo ata cor avellá. Incorporar o caldo pouco a pouco sen deixar de remexer. Cocer 30 minutos a lume suave. Coar e rectificar.",
+  "url": "https://receitario.gal/salsa-espanola/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "c17c55fd80df7231",
+  "title": "Salsa de Tomate Caseira",
+  "ingredients": [
+    "1 kg tomates maduros, 1 cebola",
+    "3 dentes allo, aceite, sal, azucre, albahaca"
+  ],
+  "preparation": "Pochar cebola e allo en aceite. Engadir tomates picados. Cocer 40 min a lume suave. Triturar. Rectificar de sal e azucre.",
+  "url": "https://receitario.gal/salsa-de-tomate-caseira/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "ed4f3460e6ed7fca",
+  "title": "Salsa de Tomate",
+  "ingredients": [
+    "1 kg de tomates maduros",
+    "1 cebola, 2 dentes de allo",
+    "Aceite de oliva",
+    "Sal, azucre (para corrixir acidez), loureiro"
+  ],
+  "preparation": "Pochar a cebola e o allo en aceite a lume lento 20 minutos. Engadir os tomates cortados sen piel. Salar. Cocer a lume medio 30-40 minutos ata que espese. Pasar polo pasapurés. Rectificar de sal e azucre.",
+  "url": "https://receitario.gal/salsa-de-tomate/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "a97b2c7560df34d2",
+  "title": "Salsa de Pementos Vermellos Asados",
+  "ingredients": [
+    "4 pementos vermellos asados e pelados",
+    "Allo, aceite, vinagre, sal"
+  ],
+  "preparation": "Asar e pelar os pementos. Triturar con allo. Emulsionar con aceite e vinagre. Rectificar de sal. Usar frío ou quente.",
+  "url": "https://receitario.gal/salsa-de-pementos-vermellos-asados/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "2fc11dadc63afca8",
+  "title": "Salsa de Pementos Asados",
+  "ingredients": [
+    "4 pementos vermellos asados",
+    "2 dentes de allo, aceite, sal, vinagre"
+  ],
+  "preparation": "Asar e pelar os pementos. Triturar con allo, aceite e vinagre. Coar se se quere liso. Usar frío ou quente.",
+  "url": "https://receitario.gal/salsa-de-pementos-asados/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "960478ef7aa548bb",
+  "title": "Salsa de Pemento",
+  "ingredients": [
+    "4 pementos vermellos asados e pelados",
+    "2 dentes de allo",
+    "Aceite de oliva",
+    "Sal e vinagre ao gusto"
+  ],
+  "preparation": "Asar os pementos directamente na chama ou no forno ata que a pel se queime. Envolver en papel e deixar repousar 15 minutos. Pelar e retirar sementes. Triturar os pementos co allo, aceite, sal e vinagre. Coar e servir a temperatura ambiente.",
+  "url": "https://receitario.gal/salsa-de-pemento/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "d4cd552e4b828738",
+  "title": "Salsa Béchamel",
+  "ingredients": [
+    "500 ml de leite enteiro",
+    "40 g de fariña de trigo",
+    "40 g de manteiga",
+    "Sal, pementa branca, noz moscada"
+  ],
+  "preparation": "Fundir a manteiga en cazo a lume medio. Engadir a fariña dunha vez e remexer 2 minutos (non debe coller cor). Incorporar o leite quente pouco a pouco sen deixar de remexer. Cocer 10 minutos ata que espese e non teña sabor a fariña crúa. Sazoar con sal, pementa branca e noz moscada.",
+  "url": "https://receitario.gal/salsa-bechamel/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "94addcf4442ca52c",
+  "title": "Ropa Vieja",
+  "ingredients": [
+    "Restos de cocido: garbanzo, carne, verduras",
+    "1 cebola, 2 tomates, allo, pementón",
+    "Aceite, sal, comino"
+  ],
+  "preparation": "Desfiar a carne dos restos. Pochar cebola, allo e tomate. Engadir pementón e comino. Incorporar todos os restos. Saltear 10 min.",
+  "url": "https://receitario.gal/ropa-vella/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "2bab13d487808c19",
+  "title": "Pote Galego",
+  "ingredients": [
+    "300 g de fabas brancas (en remollo desde a véspera)",
+    "300 g de lacón salgado (en remollo 24 horas)",
+    "200 g de costela de porco salgada",
+    "2 chorizos galegos",
+    "1 morcilla galega",
+    "1 manoxo de grelos ou verza",
+    "4 patacas medianas",
+    "Unto (graxa de porco curada)",
+    "Sal ao gusto"
+  ],
+  "preparation": "Nunha pota grande, colocar o lacón e a costela cubertos de auga fría. Levar a ebulición e cambiar a auga. Cubrir de novo con auga e cocer a lume medio 1 hora. Engadir as fabas escorridas e o unto. Cocer 30 minutos máis. Incorporar os chorizos e a morcilla. Cocer 20 minutos. Engadir as patacas e os grelos. Cocer ata que as patacas estean tenras (20 minutos). Rectificar de sal. Servir o caldo primeiro e despois as carnes e verduras.",
+  "url": "https://receitario.gal/pote-galego/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "3cecf62a5215104c",
+  "title": "Polbo á Feira",
+  "ingredients": [
+    "Segundo Picadillo, os ingredientes para catro persoas son:",
+    "1 polbo de 1,5 a 2 kg (preferiblemente conxelado, para abrandar as fibras)",
+    "Aceite de oliva virxe extra galego",
+    "Pementón da Vera doce (e un chisco de picante ao gusto)",
+    "Sal groso",
+    "4-6 cachelos (patacas medianas con pel)"
+  ],
+  "preparation": "a tradición galega describía a técnica de «asustado» do polbo como fundamental: mergúllase tres veces na auga fervente antes da cocción final. Isto evita que a pel se descasque e dá ao polbo a textura característica. Limpar o polbo e conxelalo polo menos 24 horas antes (abran da carne). Ferver auga con sal nunha pota grande. Cando ferva, «asustar» o polbo mergullándoo tres veces durante uns segundos. Cocer o polbo a lume medio durante 20-40 minutos segundo o tamaño. Pinchar cun palillo para comprobar que está tenro. Retirar e deixar repousar 10 minutos fóra da auga. Cocer os cachelos na mesma auga do polbo. Cortar o polbo en rodas con tesoiras directamente sobre a táboa de madeira. Regar con aceite de oliva, espolvorear pementón e sal groso.",
+  "url": "https://receitario.gal/polbo-a-feira/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "7dff4d3df96d6800",
+  "title": "Pimentos en Conserva",
+  "ingredients": [
+    "2 kg de pementos vermellos asados",
+    "Aceite de oliva virxe extra, sal, allo"
+  ],
+  "preparation": "Asar os pementos ata queimar a pel. Pelar. Colocar en botes esterilizados. Cubrir con aceite e engadir allo e sal. Esterilizar ao baño maría 20 min.",
+  "url": "https://receitario.gal/pimentos-en-conserva/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "aca949e309feb91a",
+  "title": "Pesto Genovese",
+  "ingredients": [
+    "50 g albahaca fresca, 2 dentes allo",
+    "50 g piñóns, 50 g parmesano, 150 ml aceite"
+  ],
+  "preparation": "Majar allo con piñóns no morteiro. Engadir albahaca pouco a pouco. Incorporar parmesano e aceite. Non usar batidora — o morteiro é esencial.",
+  "url": "https://receitario.gal/pesto-genovese/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "76c18cdd092723f0",
+  "title": "Pepinillos en Vinagre",
+  "ingredients": [
+    "500 g pepinos pequenos",
+    "Vinagre, sal, eneldo, allo",
+    "Pementa en gran, mostaza en gran"
+  ],
+  "preparation": "Lavar os pepinos. Colocar en botes con allo e herbas. Cubrir con vinagre e sal. Macerar 1 semana mínimo.",
+  "url": "https://receitario.gal/pepinillos-en-vinagre/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "404419c43f845c6c",
+  "title": "Pemento en Aceite",
+  "ingredients": [
+    "2 kg pementos vermellos asados",
+    "Aceite de oliva virxe extra, allo, sal"
+  ],
+  "preparation": "Asar e pelar os pementos. Colocar en botes con allo e sal. Cubrir con aceite. Esterilizar 20 min.",
+  "url": "https://receitario.gal/pemento-en-aceite/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "6f376902a74ba913",
+  "title": "Pastel de Carne",
+  "ingredients": [
+    "400 g restos de carne picada ou desfiada",
+    "Béchamel, puré de patacas, queixo rallado",
+    "Sal, noz moscada"
+  ],
+  "preparation": "Estender o puré no fondo dunha bandexa. Cubrir con carne. Cubrir con béchamel. Espolvorear queixo. Gratinar 15 min.",
+  "url": "https://receitario.gal/pastel-de-carne/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "b65bbca76c1dd3a1",
+  "title": "Papas de Millo",
+  "ingredients": [
+    "300 g fariña de millo",
+    "1 litro auga ou leite, sal",
+    "Mel, azucre ou manteiga"
+  ],
+  "preparation": "Ferver o líquido con sal. Engadir a fariña en fío remexendo. Cocer 20 min sen parar de remexer. Servir con mel ou manteiga.",
+  "url": "https://receitario.gal/papas-de-millo/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "c268d0f7663a6bcb",
+  "title": "Pan de Millo",
+  "ingredients": [
+    "500 g de fariña de millo",
+    "200 g de fariña de centeo (para dar estrutura)",
+    "1 sobre de levadura seca",
+    "1 culleradiña de sal",
+    "350-400 ml de auga tépeda"
+  ],
+  "preparation": "Mesturar as fariñas co sal. Disolver a levadura na auga tépeda. Incorporar á fariña. Amasar ata obter masa homoxénea, algo pegañenta. Deixar levedar 1 hora tapada. Formar barras ou boliños. Cocer a 200°C unos 40-45 minutos.",
+  "url": "https://receitario.gal/pan-de-millo/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "4ff75a8015807ee5",
+  "title": "Olla Podrida",
+  "ingredients": [
+    "Garavanzos, vacún, polo, chorizo, morcilla",
+    "Repollo, cenoria, pataca",
+    "Sal, azafrán"
+  ],
+  "preparation": "Cocer garavanzos e carnes en auga fría. Engadir verduras a medio cocción. Cocer 2h30 a lume suave. Servir en tres vuelcos.",
+  "url": "https://receitario.gal/olla-podrida/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "ee3b8a5dd31124df",
+  "title": "Morteruelo",
+  "ingredients": [
+    "Carne de caza: fígado, polo, coello, perdiz",
+    "Pan, especias: canela, cravo, pementa",
+    "Manteca de cerdo"
+  ],
+  "preparation": "Cocer a caza en auga. Triturar coa manteca e especias. Engadir pan para ligar. Servir temperado con pan tostado.",
+  "url": "https://receitario.gal/morteruelo/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "2b5e3a95c6f22769",
+  "title": "Migas Extremeñas",
+  "ingredients": [
+    "400 g pan duro de días anteriores",
+    "4 dentes allo, 100 g touciño",
+    "Aceite, pementón, sal, uvas para acompañar"
+  ],
+  "preparation": "Humedecer o pan. Reservar. Fritar allo e touciño en aceite. Engadir o pan. Remexer continuamente 20 min. Espolvorear pementón. Servir con uvas.",
+  "url": "https://receitario.gal/migas-extremenas/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "9de95b426dee1e77",
+  "title": "Masa de Croquetas",
+  "ingredients": [
+    "500 ml de leite enteiro",
+    "50 g de fariña + 50 g de manteiga (para a béchamel)",
+    "200 g de recheo: polo cocido, xamón ou bacallau desmiuzado",
+    "Sal, pementa, noz moscada",
+    "Pan raiado, 2 ovos para rebozar",
+    "Aceite para fritar"
+  ],
+  "preparation": "Facer unha béchamel espesa. Incorporar o recheo e sazoar. Refrixerar 4 horas como mínimo. Formar croquetas coa masa fría. Pasar por ovo batido e logo pan raiado. Fritar en aceite abundante moi quente ata que queden douradas. Escorrer e servir inmediatamente.",
+  "url": "https://receitario.gal/masa-de-croquetas/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "8fb31aec33968e1f",
+  "title": "Maínzo",
+  "ingredients": [
+    "500 g gran de millo seco",
+    "Auga, sal",
+    "Mel ou azucre para servir"
+  ],
+  "preparation": "Remoller o millo 24h. Cocer en auga con sal 2h. Escorrer. Servir con mel ou manteiga.",
+  "url": "https://receitario.gal/mainzo/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "3217edc2ed8f28eb",
+  "title": "Mahonesa Caseira",
+  "ingredients": [
+    "2 ovos, 200 ml aceite de xirasol",
+    "Zume de 1 limón, sal, mostaza"
+  ],
+  "preparation": "Poñer ovos, limón, sal e mostaza no vaso. Engadir o aceite moi lentamente ao principio. Batir con minipimer sen mover ata emulsionar. Mover de abaixo a arriba para completar.",
+  "url": "https://receitario.gal/mahonesa-caseira/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "f9bc82f9dc0139fe",
+  "title": "Licor de Herbas Galego",
+  "ingredients": [
+    "Orujo galego ou aguardente",
+    "Herbas: menta, romeu, tomillo, salvia, loureiro",
+    "Azucre, auga"
+  ],
+  "preparation": "Macerar herbas no orujo 30 días. Filtrar. Preparar xarope con azucre e auga. Mesturar orujo e xarope. Reposar 1 mes.",
+  "url": "https://receitario.gal/licor-de-herbas-galego/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "1fb7e554affc6439",
+  "title": "Hash de Patacas e Restos",
+  "ingredients": [
+    "3 patacas cocidas en dados",
+    "Restos de carne ou verduras",
+    "Cebola, aceite, sal, perexil"
+  ],
+  "preparation": "Saltear cebola en aceite. Engadir patacas e restos. Cociñar a lume forte 10 min. Servir con ovo frito.",
+  "url": "https://receitario.gal/hash-de-patacas-e-restos/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "b9ba89db0fbd3458",
+  "title": "Gremolata",
+  "ingredients": [
+    "1 manoxo perexil fresco picado",
+    "1 dente allo moi picado",
+    "Ralladura de 1 limón, sal"
+  ],
+  "preparation": "Picar o perexil moi fino. Mesturar con allo e ralladura de limón. Engadir sal. Usar inmediatamente sobre carnes ou peixes.",
+  "url": "https://receitario.gal/gremolata/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "245fda202e1a9c52",
+  "title": "Gazpacho Manchego",
+  "ingredients": [
+    "1 torta de pastor (masa finísima)",
+    "Carne de caza: coello, perdiz, polo",
+    "Tomate, allo, especias, auga"
+  ],
+  "preparation": "Preparar caldo con caza e verduras. Trocelar a torta e cocer no caldo. Incorporar a carne desfiada. Servir inmediatamente.",
+  "url": "https://receitario.gal/gazpacho-manchego/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "78a1c5e031db093b",
+  "title": "Gazpacho Extremeño",
+  "ingredients": [
+    "Pan de aldea, allo, aceite, vinagre",
+    "Tomate, pemento, pepino, sal"
+  ],
+  "preparation": "Machacar allo con sal nun morteiro. Engadir pan remollado. Incorporar verduras e aceite. Servir cunha guarnición de verduras en dados.",
+  "url": "https://receitario.gal/gazpacho-extremeno/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "2e155c8d1e2781d4",
+  "title": "Gazpacho Andaluz",
+  "ingredients": [
+    "1 kg tomates, 1 pepino, 1 pementos verde",
+    "1 dente allo, 100 ml aceite, vinagre, sal",
+    "Pan do día anterior, auga"
+  ],
+  "preparation": "Remoller o pan. Triturar todo xunto. Coar. Emulsionar con aceite. Refrixerar 2h. Servir moi frío.",
+  "url": "https://receitario.gal/gazpacho-andaluz/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "45065f16d82856f0",
+  "title": "Gazpacho",
+  "ingredients": [
+    "1 kg de tomates maduros",
+    "1 pepino, 1 pemento verde, 1 dente de allo",
+    "100 g de pan de días anteriores",
+    "100 ml de aceite de oliva virxe extra",
+    "30 ml de vinagre de viño",
+    "Sal ao gusto, auga fría"
+  ],
+  "preparation": "Remoller o pan en auga uns minutos. Triturar todos os ingredientes xuntos ata obter crema fina. Pasar polo coador para deixar liso. Rectificar de sal e vinagre. Refrixerar polo menos 2 horas. Servir moi frío con guarnición de verdura picada.",
+  "url": "https://receitario.gal/gazpacho/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "87ef4cdb3330dddd",
+  "title": "Gaspacho de Remolacha",
+  "ingredients": [
+    "4 remolachas cocidas",
+    "1 pepino, 1 cebola, aceite, vinagre, sal",
+    "Iogur para servir"
+  ],
+  "preparation": "Triturar remolachas con pepino e cebola. Engadir aceite e vinagre. Coar. Refrixerar 2 horas. Servir cunha cullerada de iogur.",
+  "url": "https://receitario.gal/gaspacho-de-remolacha/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "b57964f3683cdaeb",
+  "title": "Fritada de Restos",
+  "ingredients": [
+    "Restos varios: patacas, carne, verduras cocidas",
+    "3 ovos, aceite, sal, perexil"
+  ],
+  "preparation": "Fritar todos os restos en aceite. Bater os ovos. Verter sobre os restos. Remexer. Servir con perexil.",
+  "url": "https://receitario.gal/fritada-de-restos/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "3c14f93b72b85199",
+  "title": "Fabada Asturiana",
+  "ingredients": [
+    "500 g fabas asturianas remolladas",
+    "Lacón, morcilla, chorizo, touciño",
+    "Sal, azafrán, pementón"
+  ],
+  "preparation": "Cocer as fabas en auga fría. Engadir lacón, chorizo e morcilla a medio cocción. Engadir azafrán e pementón. Cocer 2h a lume suave.",
+  "url": "https://receitario.gal/fabada-asturiana/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "61dfcfd5a488bccd",
+  "title": "Empanada Galega",
+  "ingredients": [
+    "500 g de fariña de trigo",
+    "150 ml de aceite de oliva (ou manteiga de porco, como usaba Picadillo)",
+    "150 ml de auga morna",
+    "25 g de levadura fresca",
+    "1 culleradiña de sal",
+    "1 ovo para pintar",
+    "500 g de sardiñas limpas e sen espiña",
+    "2 cebolas grandes",
+    "2 pementos vermellos",
+    "4 dentes de allo",
+    "Aceite de oliva",
+    "Sal e pementa",
+    "Pementón doce"
+  ],
+  "preparation": "A masa: Disolver a levadura na auga morna con unha pitada de azucre. Nunha cunca grande, mesturar a fariña co sal. Facer un burato no centro. Engadir o aceite e a auga con levadura. Amasar ata obter unha masa lisa e elástica. Deixar repousar 1 hora cuberta cun pano. O sofrito: Pochar a cebola e o pemento en aceite a lume lento durante 30 minutos. Engadir o allo laminado, o pementón e sazoar. Deixar arrefriar completamente antes de usar. Montaxe: Dividir a masa en dúas partes. Estender a base nunha bandexa untada. Colocar o sofrito e as sardiñas encima. Cubrir coa outra metade da masa. Pegar os bordos. Facer un burato no centro para que saia o vapor. Pintar con ovo. Cocer a 200°C durante 35-40 minutos ata dourar.",
+  "url": "https://receitario.gal/empanada-galega/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "21556ae2ade25f94",
+  "title": "Empanada de Restos",
+  "ingredients": [
+    "Masa de empanada",
+    "Restos de carne, peixe ou verduras",
+    "Sofrito de cebola e pementos"
+  ],
+  "preparation": "Preparar sofrito. Mesturar con restos. Estirar masa. Encher. Cubrir. Cocer a 200°C 35 min.",
+  "url": "https://receitario.gal/empanada-de-restos/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "740a0f886ebbc8ea",
+  "title": "Croquetas de Puchero",
+  "ingredients": [
+    "Restos de cocido: polo, tenreira, xamón, verduras",
+    "Béchamel espesa",
+    "Pan raiado, ovos, aceite"
+  ],
+  "preparation": "Picar os restos de cocido finamente. Mesturar con béchamel espesa. Refrixerar 4h. Formar croquetas. Empanar. Fritar a 180°C ata dourar.",
+  "url": "https://receitario.gal/croquetas-de-puchero/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "b3f85bb582f3354b",
+  "title": "Crema de Pataca e Porro",
+  "ingredients": [
+    "4 patacas, 3 porros",
+    "1 litro de caldo, nata, manteiga, sal"
+  ],
+  "preparation": "Pochar porros en manteiga 15 min. Engadir patacas e caldo. Cocer 20 min. Triturar finamente. Incorporar nata. Rectificar de sal.",
+  "url": "https://receitario.gal/crema-de-pataca-e-porro/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "f0bae31722836e04",
+  "title": "Crema de Allo Asado",
+  "ingredients": [
+    "2 cabezas de allo enteiras, 500 ml de caldo de polo",
+    "200 ml de nata, manteiga, sal, pementa"
+  ],
+  "preparation": "Asar as cabezas de allo ao forno a 180°C 45 min. Espremer a polpa de allo. Ferver con caldo. Triturar finamente. Incorporar nata e manteiga. Rectificar.",
+  "url": "https://receitario.gal/crema-de-allo-asado/",
+  "source": "Receitario"
+},
+{
+  "recipe_id": "f17591b54dac9ff3",
+  "title": "Consomé Xeado",
+  "ingredients": [
+    "1 litro consomé de carne clarificado",
+    "Xerez seco",
+    "Sal, perexil"
+  ],
+  "preparation": "Preparar consomé clarificado con clara de ovo. Coar por pano fino. Engadir xerez. Refrixerar. Servir frío en copa con perexil.",
+  "url": "https://receitario.gal/consume-xeado/",
+  "source": "Receitario"
+},
