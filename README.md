@@ -58,7 +58,9 @@ recipes-search/
 ├── indexer/           # Scripts de mapping e indexación en Elasticsearch
 ├── search/            # Lógica de búsqueda y estrategia de ranking
 ├── llm/               # Integración con el servidor LLM (RAG)
-├── web/               # Interfaz web
+├── web/               # Aplicación web
+│   ├── backend/       # API con FastAPI (búsqueda y, más adelante, LLM)
+│   └── frontend/      # Interfaz en HTML, CSS y JS
 ├── main.py            # Rastrea las fuentes e indexa las recetas
 └── README.md
 ```
@@ -71,7 +73,8 @@ recipes-search/
 - **Scrapy** — rastreo y extracción de las fuentes
 - **Elasticsearch** — índice y estrategia de búsqueda (BM25 + campos ponderados, analizador gallego)
 - **LLM del servidor de la asignatura** — generación de respuestas RAG
-- **Framework web** — _por definir_
+- **FastAPI + Uvicorn** — backend de la aplicación web
+- **HTML, CSS y JavaScript** — interfaz web (sin build), servida por el propio backend
 
 ---
 
@@ -130,6 +133,25 @@ Los spiders de exploración (muestras pequeñas para validar las fuentes) siguen
 scrapy runspider crawlers/muestras/muestra_kukinhas.py -O data/muestras/muestra_kukinhas.json
 scrapy runspider crawlers/muestras/muestra_receitario.py -O data/muestras/muestra_receitario.json
 ```
+
+### Aplicación web
+
+Con Elasticsearch en ejecución y el índice ya creado, desde la raíz del repositorio:
+
+```bash
+uvicorn web.backend.main:app --reload
+```
+
+Después se abre http://localhost:8000. La documentación interactiva de la API está en http://localhost:8000/docs.
+
+Endpoints principales:
+
+- `GET /api/search?q=<texto>&size=10&source=<fuente>` — busca recetas. `size` (1-50) y `source` (`Kukinhas` o `Receitario`) son opcionales.
+- `GET /api/health` — indica si Elasticsearch responde.
+
+Si aparece _No se pudo conectar con Elasticsearch_, Elasticsearch no está en ejecución. Con Docker: `docker start es` (o el nombre del contenedor que se haya creado).
+
+Si aparece `[Errno 98] Address already in use`, hay otro servidor ocupando el puerto 8000: se cierra con `Ctrl+C` (no `Ctrl+Z`, que solo lo suspende y deja el puerto ocupado) o se usa otro puerto con `--port 8001`.
 
 ---
 

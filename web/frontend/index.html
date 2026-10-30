@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recetas gallegas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Buscador de recetas gallegas</h1>
+    <form id="search-form">
+      <input id="query" type="search" placeholder="Ej.: caldo gallego, empanada..." autofocus required>
+      <select id="source" aria-label="Fuente">
+        <option value="">Todas las fuentes</option>
+        <option value="Kukinhas">Kukinhas</option>
+        <option value="Receitario">Receitario</option>
+      </select>
+      <button type="submit">Buscar</button>
+    </form>
+  </header>
+
+  <main>
+    <p id="status" role="status"></p>
+    <ul id="results"></ul>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
