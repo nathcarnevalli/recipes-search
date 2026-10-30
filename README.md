@@ -153,6 +153,66 @@ Si aparece _No se pudo conectar con Elasticsearch_, Elasticsearch no está en ej
 
 Si aparece `[Errno 98] Address already in use`, hay otro servidor ocupando el puerto 8000: se cierra con `Ctrl+C` (no `Ctrl+Z`, que solo lo suspende y deja el puerto ocupado) o se usa otro puerto con `--port 8001`.
 
+### Guía rápida de ejecución
+
+Todos los comandos se ejecutan desde la raíz del repositorio.
+
+**1. Primera vez (preparación)**
+
+```bash
+cd recipes-search
+python3 -m venv .venv              # solo si la .venv no existe
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+**2. Encender Elasticsearch**
+
+```bash
+docker start es
+curl localhost:9200                # debe responder con un JSON
+```
+
+**3. Crear el índice** (solo si todavía no existe o si los datos cambian)
+
+```bash
+python indexer/indexer.py          # indexa los data/*.json
+```
+
+O, para volver a rastrear las fuentes e indexar (tarda unos 7 minutos):
+
+```bash
+python main.py
+```
+
+**4. Arrancar la aplicación web**
+
+```bash
+uvicorn web.backend.main:app --reload
+```
+
+Se abre http://localhost:8000. Swagger está en http://localhost:8000/docs.
+
+**5. Parar**
+
+- Servidor: `Ctrl+C` (no `Ctrl+Z`).
+- Elasticsearch: `docker stop es`.
+
+**Uso diario (resumen)**
+
+```bash
+cd recipes-search
+docker start es
+source .venv/bin/activate
+uvicorn web.backend.main:app --reload
+```
+
+**Búsqueda por terminal, sin la web (opcional)**
+
+```bash
+python search/search.py
+```
+
 ---
 
 ## Autores
