@@ -75,5 +75,4 @@ def search(
     return SearchResponse(query=query, total=len(results), results=results)
 
 
-# Debe montarse al final para no tapar las rutas /api
 app.mount("/", StaticFiles(directory=FRONTEND_DIR, html=True), name="frontend")

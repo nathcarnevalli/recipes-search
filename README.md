@@ -28,8 +28,6 @@ Recetas tradicionales gallegas, escritas en gallego. Hoy están repartidas entre
 | `url` | URL de la receta |
 | `source` | Sitio de origen (`Kukinhas`, `Receitario`) |
 
-**Receitario.** El spider ([crawlers/receitario_spider.py](crawlers/receitario_spider.py)) recorre el listado de la categoría, sigue la paginación y entra en cada receta. Cada receta separa sus secciones con un `<h2>`: el spider reparte las líneas en `ingredients` o `preparation` según el encabezado ("Ingredientes", "Preparación") e ignora el resto (historia, notas). No guarda las páginas que no tienen ingredientes o preparación, como el caldo de cocido. Con un `DOWNLOAD_DELAY` de 2 s el sitio devolvía errores 429, por lo que se usa 4 s.
-
 ---
 
 ## Arquitectura
@@ -78,127 +76,68 @@ recipes-search/
 
 ---
 
-## Puesta en marcha
+## Instalación
 
-### Requisitos previos
+Todos los comandos se ejecutan desde la **raíz del repositorio** (la carpeta `recipes-search`).
+
+### Requisitos
 
 - Python 3.10+
-- Elasticsearch 8.x en ejecución local
-- Credenciales del servidor LLM de la asignatura en `.env` (no incluidas en el repo)
+- Docker (para ejecutar Elasticsearch)
+- Credenciales del servidor LLM de la asignatura en un archivo `.env` (no incluidas en el repo)
 
-### Instalación
-
-Todos los comandos se ejecutan desde la **raíz del repositorio**.
+### Paso 1. Instalar (solo la primera vez)
 
 ```bash
-# 1. Clonar el repositorio
 git clone https://github.com/nathcarnevalli/recipes-search.git
 cd recipes-search
-
-# 2. Crear el entorno virtual
+sudo apt install python3-venv      # solo Ubuntu/Debian/WSL, si no lo tienes
 python3 -m venv .venv
-
-# 3. Activarlo
-source .venv/bin/activate        # Linux / macOS / WSL
-# .venv\Scripts\activate         # Windows
-
-# 4. Instalar las dependencias
+source .venv/bin/activate    
 pip install -r requirements.txt
-
-# 5. Rastrear las dos fuentes e indexar las recetas en Elasticsearch
-python main.py
 ```
 
-`main.py` rastrea las dos fuentes a la vez (generan `data/kukinhas.json` y `data/receitario.json`), comprueba que los archivos son válidos y lanza el indexador. El rastreo de receitario tarda unos 7 minutos por el retardo entre peticiones. Elasticsearch debe estar en ejecución antes de empezar.
+### Paso 2. Encender Elasticsearch
 
-Para reindexar sin volver a rastrear, usando los JSON que ya existen en `data/`:
+Elasticsearch debe estar encendido **antes** de indexar o de abrir la web.
+
+Si ya existe:
+
+```bash
+docker start es
+```
+
+Si no existe (primera vez), se crea y arranca con:
+
+```bash
+docker run -d --name es -p 9200:9200 \
+  -e "discovery.type=single-node" -e "xpack.security.enabled=false" \
+  docker.elastic.co/elasticsearch/elasticsearch:8.19.3
+```
+
+### Paso 3. Cargar las recetas en el índice
+
+Los datos ya vienen en `data/kukinhas.json` y `data/receitario.json`, así que normalmente **no hace falta rastrear**. Solo se indexa:
 
 ```bash
 python main.py --sin-crawl
 ```
 
-Cada paso también se puede ejecutar por separado:
-
-```bash
-scrapy runspider crawlers/kukinhas_spider.py
-scrapy runspider crawlers/receitario_spider.py
-python indexer/indexer.py
-```
-
-No se deben ejecutar dos rastreos de la misma fuente a la vez: escriben en el mismo archivo y lo corrompen.
-
-Los spiders de exploración (muestras pequeñas para validar las fuentes) siguen disponibles:
-
-```bash
-scrapy runspider crawlers/muestras/muestra_kukinhas.py -O data/muestras/muestra_kukinhas.json
-scrapy runspider crawlers/muestras/muestra_receitario.py -O data/muestras/muestra_receitario.json
-```
-
-### Aplicación web
-
-Con Elasticsearch en ejecución y el índice ya creado, desde la raíz del repositorio:
-
-```bash
-uvicorn web.backend.main:app --reload
-```
-
-Después se abre http://localhost:8000. La documentación interactiva de la API está en http://localhost:8000/docs.
-
-Endpoints principales:
-
-- `GET /api/search?q=<texto>&size=10&source=<fuente>` — busca recetas. `size` (1-50) y `source` (`Kukinhas` o `Receitario`) son opcionales.
-- `GET /api/health` — indica si Elasticsearch responde.
-
-Si aparece _No se pudo conectar con Elasticsearch_, Elasticsearch no está en ejecución. Con Docker: `docker start es` (o el nombre del contenedor que se haya creado).
-
-Si aparece `[Errno 98] Address already in use`, hay otro servidor ocupando el puerto 8000: se cierra con `Ctrl+C` (no `Ctrl+Z`, que solo lo suspende y deja el puerto ocupado) o se usa otro puerto con `--port 8001`.
-
-### Guía rápida de ejecución
-
-Todos los comandos se ejecutan desde la raíz del repositorio.
-
-**1. Primera vez (preparación)**
-
-```bash
-cd recipes-search
-python3 -m venv .venv              # solo si la .venv no existe
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-**2. Encender Elasticsearch**
-
-```bash
-docker start es
-curl localhost:9200                # debe responder con un JSON
-```
-
-**3. Crear el índice** (solo si todavía no existe o si los datos cambian)
-
-```bash
-python indexer/indexer.py          # indexa los data/*.json
-```
-
-O, para volver a rastrear las fuentes e indexar (tarda unos 7 minutos):
+**Opcional: rastrear las fuentes** (tarda unos 7 minutos por el retardo entre peticiones de receitario):
 
 ```bash
 python main.py
 ```
 
-**4. Arrancar la aplicación web**
+### Paso 4. Arrancar la aplicación web
 
 ```bash
 uvicorn web.backend.main:app --reload
 ```
 
-Se abre http://localhost:8000. Swagger está en http://localhost:8000/docs.
+Abre http://localhost:8000.
 
-**5. Parar**
-
-- Servidor: `Ctrl+C` (no `Ctrl+Z`).
-- Elasticsearch: `docker stop es`.
-
-**Uso diario (resumen)**
+### Uso diario (resumen)
 
 ```bash
 cd recipes-search
@@ -206,13 +145,6 @@ docker start es
 source .venv/bin/activate
 uvicorn web.backend.main:app --reload
 ```
-
-**Búsqueda por terminal, sin la web (opcional)**
-
-```bash
-python search/search.py
-```
-
 ---
 
 ## Autores
