@@ -50,3 +50,4 @@ tzdata==2026.5
 python-dotenv==1.2.4
 fastapi==0.162.0
 uvicorn==0.54.0
+python-dotenv

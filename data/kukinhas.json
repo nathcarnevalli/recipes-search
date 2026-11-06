@@ -68,22 +68,6 @@
   "source": "Kukinhas"
 },
 {
-  "recipe_id": "bae4c7a54720303f",
-  "title": "Tortilla rechea / Stuffed potato omelette",
-  "ingredients": [
-    "Ingredientes para 2 persoas:",
-    "5 patacas",
-    "5 ovos",
-    "1 cebola",
-    "2 tiras de xamón cocido",
-    "un bo anaco de queixo Arzúa-Ulloa",
-    "leituga e rúcula (con sal, aceite e vinagre)"
-  ],
-  "preparation": "1. Facemos a tortilla coma sempre, procurando que quede máis gordiña, para que sexa máis sinxela de cortar. Iso si, que non quede moi pouco feita, mais si esponxosa. 2. Abrímola á metade, con moito tino, e mellor cando aínda estea quentiña, para que se derreta o queixo, que será o primeiro que poñamos. 3. A continuación, colocamos o xamón. 4. E a ensalada de leituga e rúcula. 5. Pechamos coa outra metade e listo! Unha receita sinxelísima, non si? Podedes probar con outros ingredientes que vos gusten máis, eu non tiña tomates, mais de seguro que lle queda moi ben. Iso si, o queixo é imprescindible! 😀 Xa veredes que boa está a tortilla con esa cremosidade extra!!!",
-  "url": "https://kukinhas.com/2015/10/tortilla-rechea-stuffed-potato-omelette/",
-  "source": "Kukinhas"
-},
-{
   "recipe_id": "9bf2fbeb8d0596a8",
   "title": "Torta Red Velvet / Red Velvet cake",
   "ingredients": [
@@ -288,92 +272,74 @@
   "source": "Kukinhas"
 },
 {
-  "recipe_id": "dc8748026c9ed498",
-  "title": "Carquinyolis",
+  "recipe_id": "bae4c7a54720303f",
+  "title": "Tortilla rechea / Stuffed potato omelette",
   "ingredients": [
-    "120 grramos de azucre",
-    "175 gramos de fariña triga",
-    "80 gramos de améndoa moída",
-    "2 ovos",
-    "1 culleradiña de fermento en po",
-    "100 gramos de pistachos sen casca",
-    "1 belisco de sal (se os pistachos non son salgados, senón non é preciso)",
-    "1 ovo para pintar a masa",
-    "Print"
-  ],
-  "preparation": "O proceso é ben sinxelo. Só temos que mesturar todos os ingredientes secos agás os pistachos. Despois batemos os dous ovos e botámolos na mestura previa, amasando ata que estea todo integrado. Non vos preocupedes se fica pegañenta, é normal. Enfariñamos ben a mesa de traballo, botamos a masa e estiramos como se fose unha barra de pan. Mentres imos enrolando, imos collendo fariña da mesa para que a masa non estea tan pegañenta e sexa máis manexable. Cando a teñamos estirada, aplanámola un pouco e botásmolle os pistachos. Pechamos mentres enrolamos para que queden os pistachos por dentro. Formamos dúas barras duns 5 cm de ancho. Pintamos co ovo batido e enfornamos uns 20 minutos a 170ºC. Sacamos do forno, agardamos uns 3 minutos a que arrefríe e cortamos carquinyolis en diagonal cun coitelo de serra. Terán que ter 1 centímetro de ancho máis ou menos. Voltamos poñer na bandexa do forno e deixamos que queden douradiños. Uns 15 minutos a 170ºC. Deixamos que arrefríen ata que fiquen ben crocantes. Os carquinyolis adoitan tomarse con viño doce ou moscatel. Sempre se toman fríos, para que estean ben crocantes e fan boa compaña á crema de Sant Josep . Por suposto se non tedes pistachos, podedes empregar abelás ou améndoas. Iso si, se usades améndoas ou abelás, teñen que ser enteiras. Agora que xa están as tendas cheas de froitos secos polo Nadal, é un bo momento para prepararmos esta receita, non credes? Related posts: Blondies de pistachos e framboesas / Pistachio and raspberries blondies Músicos de chocolate / Mendiants Bombóns da Candeloria Galette de figos, feta e mel",
-  "url": "https://kukinhas.com/2024/11/carquinyolis/",
-  "source": "Kukinhas"
-},
-{
-  "recipe_id": "7571e4c7281e240b",
-  "title": "Tortilla con rixóns",
-  "ingredients": [
-    "4 patacas xeitosas",
-    "5 ou 6 ovos",
+    "Ingredientes para 2 persoas:",
+    "5 patacas",
+    "5 ovos",
     "1 cebola",
-    "rixóns ao gusto",
+    "2 tiras de xamón cocido",
+    "un bo anaco de queixo Arzúa-Ulloa",
+    "leituga e rúcula (con sal, aceite e vinagre)"
+  ],
+  "preparation": "1. Facemos a tortilla coma sempre, procurando que quede máis gordiña, para que sexa máis sinxela de cortar. Iso si, que non quede moi pouco feita, mais si esponxosa. 2. Abrímola á metade, con moito tino, e mellor cando aínda estea quentiña, para que se derreta o queixo, que será o primeiro que poñamos. 3. A continuación, colocamos o xamón. 4. E a ensalada de leituga e rúcula. 5. Pechamos coa outra metade e listo! Unha receita sinxelísima, non si? Podedes probar con outros ingredientes que vos gusten máis, eu non tiña tomates, mais de seguro que lle queda moi ben. Iso si, o queixo é imprescindible! 😀 Xa veredes que boa está a tortilla con esa cremosidade extra!!!",
+  "url": "https://kukinhas.com/2015/10/tortilla-rechea-stuffed-potato-omelette/",
+  "source": "Kukinhas"
+},
+{
+  "recipe_id": "4050bb0e06c57cdc",
+  "title": "Biscoito de té verde matcha / Matcha sponge cake",
+  "ingredients": [
+    "Ingredientes para un biscoito ben xeitoso de té verde matcha**:",
+    "3 ovos (se son da casa, mellor)",
+    "1 iogur (sen azucre e natural)",
+    "2 vasos de iogur de azucre",
+    "2 vasos de iogur de fariña",
+    "uns 75 gramos de té verde matcha",
+    "1 sobre de fermento químico",
+    "**Eu digo que é xeitoso, mais sabe taaan ben que o mesmo día que o fixemos pola tarde, xa quedaba só a metade. Xa con iso volo digo todo 😀"
+  ],
+  "preparation": "1. Comezamos polo paso básico para que nos quede un biscoito ben esponxoso. Para iso, separamos as claras das xemas e batemos as claras a punto de neve. Kukiconsello: se lle botades un chisco de sal, tardan menos en subir. 2. E a continuación, iremos engadindo o resto dos ingredientes: o iogur, o azucre, a fariña, o matcha e o fermento. 3. Botamos todo no molde… 4. …e enfornamos durante uns 30-40 minutos a 180 graos. Se o voso forno ten a opción de ventilador, poñédello. Se non, ha saír igual, así que non hai problema. E listo! Gústame moito ver a cor verde do biscoito antes de entrar no forno e como este se volve totalmente marrón cando sae. Recórdame ás cores de outono, e como vai cambiando a paisaxe de verde a marrón. Isto que vou dicir xa o dixen máis dunha vez, mais que ben saen estas receitas sen ter unhas cantidades exactas! Eu antes sempre que facía unha receita, obsesionábame con seguir o paso a paso e cada gramo ao pé da letra, agora todo o contrario! Guíome pola intuición, ou polo que me pide o corpo cando a estou a facer, e o certo é que así gózase moito máis da cociña e saen pratos moito máis persoais e ao gusto de cada un. Para rematar esta lambetada, podedes engadirlle un pouco de chocolate branco, que sempre lle queda moooi ben ao matcha. Eu, por suposto, fíxeno, así teño xuntas as miñas 3 paixóns 😉 Bo proveito!",
+  "url": "https://kukinhas.com/2017/05/biscoito-de-te-verde-matcha-matcha-sponge-cake/",
+  "source": "Kukinhas"
+},
+{
+  "recipe_id": "c80af3a2020176e5",
+  "title": "Biscoito de chocolate branco / White chocolate sponge cake",
+  "ingredients": [
+    "125 gramos de manteiga",
+    "200 gramos de azucre branco",
+    "1 belisco de sal",
+    "200 gramos de fariña",
+    "10 gramos de fermento químico",
+    "1 iogur de limón",
+    "2 ovos",
+    "1 cullerada de améndoa moída",
+    "60 gramos de chocolate branco",
+    "100 gramos de pistachos sen casca",
+    "Tempo de preparación",
+    ": 20 minutos",
+    "Tempo de enfornado",
+    ": 55 minutos aprox. a 180ºC"
+  ],
+  "preparation": "1. Batemos a manteiga a temperatura ambiente xunto co azucre ata que fique una mestura cremosa. Poñemos o forno a quentar a 180ºC e untamos o molde con manteiga. 2. Engadimos o resto dos ingredientes agás os pistachos e o chocolate branco. 3. Moemos os pistachos, relamos o chocolate branco e engadímolos á masa. 4. Botamos a masa sobre o molde e enfornamos a 180ºC durante uns 55 minutos ou ata que un escarvadentes cravado no centro do biscoito saia limpo ou con algún pequeno anaco pegado. 5. Agardamos a que arrefríe antes de sacalo do molde e listo! Se andabades na procura dun biscoito no que se notase o sabor a chocolate branco, aquí o tedes. Ao relar o chocolate, o sabor queda por todo o biscoito de pistacho e fai que se note a súa dozura en cada anaquiño. É un biscoito moi tenro polo que hai que cortalo con tino e sempre mellor cun coitelo de serra. Aguanta varios días moi tenro, aínda que xa vos digo que ha custar traballo que aguante moitos días na casa porque está boísimo!",
+  "url": "https://kukinhas.com/2020/04/biscoito-de-chocolate-branco-white-chocolate-sponge-cake/",
+  "source": "Kukinhas"
+},
+{
+  "recipe_id": "38c4ea695317f7b2",
+  "title": "Batatas a murro",
+  "ingredients": [
+    "16 patacas pequenas",
+    "auga",
+    "sal",
+    "aceite",
+    "especias ao gusto, eu empreguei pemento doce (opcional)",
     "Print"
   ],
-  "preparation": "Pranamos e cortamos as patacas en láminas. Cortamos tamén a cebola. Salgamos. Fritimos as patacas e a cebola en abundante aceite de oliva. Cortamos un anaco de rixóns. E pasámolos pola tixola para que queden ben torradiños e saia a graxa. Nun bol, botamos os ovos e engadimos un chisco de sal. Batemos e engadimos os rixóns. Cando as patacas e a cebola estean fritidas, engadímolas ao ovo. Remexemos. Facemos a tortilla cos rixóns a lume lento ata que estea callada por un lado. Despois dámoslle a volta e deixamos que se faga tamén polo outro lado. A min gústame que quede un pouquiño desfeita polo medio, mais iso xa depende do gusto de cada unha. Persoalmente, devezo polos rixóns e na tortilla quedan realmente moi ben. E se aínda non os probastes nas filloas de caldo, iso é xa outro nivel! Related posts: Tortilla rechea / Stuffed potato omelette Croquetas de rixóns e queixo / Pressed cracklings and cheese croquettes Pizza caseira de queixo e rixóns / Home-made Galician pizza Tomates recheos de patacas / Potato stuffed tomatoes",
-  "url": "https://kukinhas.com/2021/05/tortilla-con-rixons/",
-  "source": "Kukinhas"
-},
-{
-  "recipe_id": "a2f80683d55dd289",
-  "title": "Mariñeiras con tartar de salmón / Mariñeiras with salmon tartare",
-  "ingredients": [
-    "Ingredientes para unhas 10/12 mariñeiras:",
-    "200 gramos de salmón",
-    "1/2 cebola",
-    "1/2 cogombro",
-    "2 culleradas de sementes de sésamo",
-    "1 cullerada de zume de lima",
-    "1 cullerada de prebe de soia",
-    "1 culleradiña de aceite de sésamo",
-    "1 culleradiña de aceite de xirasol",
-    "10/12",
-    "mariñeiras daveiga"
-  ],
-  "preparation": "1. Cortamos o salmón en cadrados. 2. Picamos a cebola. 3. E o cogombro. 4. Botamos todo enriba do salmón xunto coas sementes de sésamo, o zume de lima, a soia, o aceite de sésamo e o aceite de xirasol. Remexemos ben e axudándonos de dúas culleres, imos poñendo o tartar de salmón sobre as mariñeiras. E listo! Como xa vos dixen, estas mariñeiras son moi crocantes e o mellor é que despois dun tempo tendo o tartar enriba, aínda seguían estando crocantes, algo que me gusta moito, pois tomar un petisco coa base húmida non me gusta nada. Estas que empreguei eu eran a variedade con aceite de oliva virxe extra, mais hai especiais para petiscos, por se queredes probar. Estou segura de que con calquera delas estará de vicio! O tartar de salmón está de vicio e poder tomalo así dunha trabada e coas mans é un verdadeiro pracer. Xa vedes que se fai máis axiña do que vos levará ler a receita 🙂 Así que animádevos e xa veredes como repetiredes! Bo proveito!!!",
-  "url": "https://kukinhas.com/2017/02/marineiras-tartar-salmon-marineiras-with-salmon-tartare/",
-  "source": "Kukinhas"
-},
-{
-  "recipe_id": "0039fde8658022d5",
-  "title": "Pan de trigo mouro",
-  "ingredients": [
-    "500 gramos de iogur de cabra",
-    "300 gramos de fariña de trigo mouro",
-    "1 culleradiña de sal",
-    "1 culleradiña de bicarbonato de soda",
-    "2 culleradiñas de vinagre de viño",
-    "sementes: xirasol, cabaza e sésamo (opcional)",
-    "Print"
-  ],
-  "preparation": "Mesturamos tódolos ingredientes agás as sementes. Poñemos o forno a quentar a 200ºC. Untamos un molde rectangular con aceite de oliva e botamos a masa enriba. Engadimos as sementes que máis nos gusten. E enfornamos durante 40 minutos a 200ºC. Sacámolo do forno e deixamos que arrefríe durante uns 10 minutos dentro do molde. Despois xa o podemos sacar e deixar que arrefríe por completo. A min sorprendeume moito o resultado tan sabedeiro dun pan con tan poucos ingredientes, tan saudábel, sen glute e cunha preparación tan sinxela, por iso vos animo a que o probedes, porque paga a pena degustalo e gozalo. Bo proveito! Related posts: Pan con mestura de cereais / Bread with multigrain baking mix Pan crocante de sementes / Seed crackers Vasos de iogur e cereixas / Cherry and yoghurt parfait Barras de muesli / Granola bars",
-  "url": "https://kukinhas.com/2021/04/pan-de-trigo-mouro/",
-  "source": "Kukinhas"
-},
-{
-  "recipe_id": "ab740f689765ed06",
-  "title": "Tacos",
-  "ingredients": [
-    "Ingredientes para 8 tacos:",
-    "250 gramos de carne de tenreira",
-    "1/2 cebola",
-    "1/2 pemento vermello",
-    "prebe de tomate",
-    "prebe picante",
-    "leituga",
-    "tomates",
-    "queixo relado",
-    "aguacates, lima e aceite de oliva",
-    "tortillas crocantes para tacos",
-    "queixo parmesano (opcional)"
-  ],
-  "preparation": "1. Picamos a carne, salgamos e engadimos as especias que queiramos. Eu empreguei un botiño de especias mexicanas que lle quedaba moi ben 😉 2. Cortamos a cebola e o pementos en cadradiños e fritímolos xunto coa carne. Engadimos tamén o prebe de tomate e un pouco de prebe picante para darlle un toque mexicano. 3. Por outra banda, cortamos o tomate en dados e a leituga en tiras. 4. Na picadora, botamos o aguacate, un chorro de zume de lima e outro de aceite de oliva e mesturamos ata ter unha crema de aguacate ben cremosa. 5. Quentamos as tortillas crocantes para tacos no forno a 125 graos durante uns 15 minutos e a enchelas! 6. Comezamos coa carne e o queixo relado. 7. A leituga en tiras. 8. O tomate en dados. 9. E a crema de aguacate. Repetimos a operación con tódolos tacos. 10. Esparexemos un chisco de parmesano relado por riba e listo! Sinxelo, va que si? Eu xa os fixen máis dunha vez, tamén con outras carnes, ou incluso con soia texturizada ou tofu. O aguacate dálle un toque fresco que lle queda moi ben, sobre todo se lle botades algo de picante á carne. O queixo relado que sexa ben suave, eu empreguei mozzarella relada e a verdade é que lle quedaba moi ben, desfíxose decontado e dáballe moita suavidade á carne. Polo demais, o que sempre vos digo, probade cos vosos ingredientes favoritos e a gozar!!! Bo proveito!",
-  "url": "https://kukinhas.com/2017/06/tacos/",
+  "preparation": "Lavamos ben as patacas coa pel e poñémolas a cocer en auga con sal ata que estean brandas. Poñemos o forno a quentar a 180ºC. Deixamos que arrefríen. E cunha cunca, imos espachurrando cada unha das patacas. Ata que queden máis ou menos así, como se ve na imaxe. Poñemos cada pataca esmagada na bandexa do forno e engadimos un chisco máis de sal, aceite e pemento doce. Podedes engadir outras especias, ou simplemente deixalas co aceite e o sal. Enfornamos durante uns 15 minutos e durante outros 5-10 coa grella para que queden torradiñas. Son unhas patacas moi saudábeis, sinxelas de facer e o seu sabor é incríbel. Cremosas por dentro e cun toque crocante por fóra, as batatas a murro son o complemento perfecto para calquera prato, ou ideais para mollar en prebe. Eu de vós, non agardaría moito para facelas! Related posts: Tomates recheos de patacas / Potato stuffed tomatoes Terceira Etapa / Third Stage: Zubiri Poutine Jacket potatoes",
+  "url": "https://kukinhas.com/2021/06/batatas-a-murro/",
   "source": "Kukinhas"
 },
 {
@@ -557,6 +523,27 @@
   ],
   "preparation": "1. Cortamos o aguacate e o salmón afumado en cadradiños. 2. Por unha banda, aderezamos o salmón cunha cullerada de aceite de oliva, o prebe de soia, a pementa, o xenxibre en po e o zume de media lima. 3. E por outra banda, sazonamos o aguacate con outra cullerada de aceite de oliva, o zume da outra media lima, sal e as follas de coandro picadas. Deixamos que repousen 20 minutiños. 4. Coa axuda dun aro ou dun molde redondo, botamos o salmón e por riba o aguacate. Decoramos con sésamo e listo! Unha receita que campa que non vexas, que se fai nun plis e que ademais está boísima! Desas receitas coas que quedamos de medo cando temos algún xantar e nos toca cociñar 😀 Se vos gustan o salmón e o aguacate, non podedes deixar de probar esta receita tan saborosísima!",
   "url": "https://kukinhas.com/2015/09/tartar-de-salmon-afumado-smoked-salmon-tartare/",
+  "source": "Kukinhas"
+},
+{
+  "recipe_id": "ab740f689765ed06",
+  "title": "Tacos",
+  "ingredients": [
+    "Ingredientes para 8 tacos:",
+    "250 gramos de carne de tenreira",
+    "1/2 cebola",
+    "1/2 pemento vermello",
+    "prebe de tomate",
+    "prebe picante",
+    "leituga",
+    "tomates",
+    "queixo relado",
+    "aguacates, lima e aceite de oliva",
+    "tortillas crocantes para tacos",
+    "queixo parmesano (opcional)"
+  ],
+  "preparation": "1. Picamos a carne, salgamos e engadimos as especias que queiramos. Eu empreguei un botiño de especias mexicanas que lle quedaba moi ben 😉 2. Cortamos a cebola e o pementos en cadradiños e fritímolos xunto coa carne. Engadimos tamén o prebe de tomate e un pouco de prebe picante para darlle un toque mexicano. 3. Por outra banda, cortamos o tomate en dados e a leituga en tiras. 4. Na picadora, botamos o aguacate, un chorro de zume de lima e outro de aceite de oliva e mesturamos ata ter unha crema de aguacate ben cremosa. 5. Quentamos as tortillas crocantes para tacos no forno a 125 graos durante uns 15 minutos e a enchelas! 6. Comezamos coa carne e o queixo relado. 7. A leituga en tiras. 8. O tomate en dados. 9. E a crema de aguacate. Repetimos a operación con tódolos tacos. 10. Esparexemos un chisco de parmesano relado por riba e listo! Sinxelo, va que si? Eu xa os fixen máis dunha vez, tamén con outras carnes, ou incluso con soia texturizada ou tofu. O aguacate dálle un toque fresco que lle queda moi ben, sobre todo se lle botades algo de picante á carne. O queixo relado que sexa ben suave, eu empreguei mozzarella relada e a verdade é que lle quedaba moi ben, desfíxose decontado e dáballe moita suavidade á carne. Polo demais, o que sempre vos digo, probade cos vosos ingredientes favoritos e a gozar!!! Bo proveito!",
+  "url": "https://kukinhas.com/2017/06/tacos/",
   "source": "Kukinhas"
 },
 {
@@ -1410,6 +1397,19 @@
   "source": "Kukinhas"
 },
 {
+  "recipe_id": "ed4c14a9f4123d9f",
+  "title": "Masa para gyozas / Gyoza wrappers",
+  "ingredients": [
+    "Ingredientes para unhas 40 masiñas:",
+    "240 gramos de fariña",
+    "120-130 ml de auga",
+    "1/2 culleradiña de sal"
+  ],
+  "preparation": "1. Mesturamos tódolos ingredientes ata conseguir unha masa que non pegue. 2. Amasamos durante 10 minutos. Este paso é importante, pois fará que a masa se volva cada vez máis manexable. 3. Dividimos a masa en dous e formamos dos roliños. Envolvémolos en prástico transparente e deixamos que repouse (fóra da neveira) durante 30 minutos. 4. Cortamos cada roliño en 12 anacos. Mentres amasamos cada un deles, poñeremos os demáis baixo un pano de mesa húmido, para que non seque a masa. 5. Facemos boliñas de cada anaco e alisamos co rolo de amasar. 6. Cun vaso, dámoslle forma redonda a cada masiña. O diámetro sería de máis ou menos 7 cm. 7. E poñemos cada masa nun recipiente (ou sobre un prástico), botando fariña entre masa e masa. E listo! Podemos gardar as masiñas envoltas en prástico transparente durante uns 3 ou 4 días. E se non as imos usar, o mellor é conxelalas, ou ben o roliño de masa, ou ben as masiñas xa coa forma. Xa vedes que é moi sinxelo, con ingredientes básicos e que se fai moi rápido. Así nunca máis teremos desculpa para non facer unhas saborosas empanadiñas xaponesas.",
+  "url": "https://kukinhas.com/2015/04/masa-para-gyozas-gyoza-wrappers/",
+  "source": "Kukinhas"
+},
+{
   "recipe_id": "08b703afbe20cb44",
   "title": "Madalenas de cereixa / Cherry muffins",
   "ingredients": [
@@ -1428,19 +1428,6 @@
   "source": "Kukinhas"
 },
 {
-  "recipe_id": "ed4c14a9f4123d9f",
-  "title": "Masa para gyozas / Gyoza wrappers",
-  "ingredients": [
-    "Ingredientes para unhas 40 masiñas:",
-    "240 gramos de fariña",
-    "120-130 ml de auga",
-    "1/2 culleradiña de sal"
-  ],
-  "preparation": "1. Mesturamos tódolos ingredientes ata conseguir unha masa que non pegue. 2. Amasamos durante 10 minutos. Este paso é importante, pois fará que a masa se volva cada vez máis manexable. 3. Dividimos a masa en dous e formamos dos roliños. Envolvémolos en prástico transparente e deixamos que repouse (fóra da neveira) durante 30 minutos. 4. Cortamos cada roliño en 12 anacos. Mentres amasamos cada un deles, poñeremos os demáis baixo un pano de mesa húmido, para que non seque a masa. 5. Facemos boliñas de cada anaco e alisamos co rolo de amasar. 6. Cun vaso, dámoslle forma redonda a cada masiña. O diámetro sería de máis ou menos 7 cm. 7. E poñemos cada masa nun recipiente (ou sobre un prástico), botando fariña entre masa e masa. E listo! Podemos gardar as masiñas envoltas en prástico transparente durante uns 3 ou 4 días. E se non as imos usar, o mellor é conxelalas, ou ben o roliño de masa, ou ben as masiñas xa coa forma. Xa vedes que é moi sinxelo, con ingredientes básicos e que se fai moi rápido. Así nunca máis teremos desculpa para non facer unhas saborosas empanadiñas xaponesas.",
-  "url": "https://kukinhas.com/2015/04/masa-para-gyozas-gyoza-wrappers/",
-  "source": "Kukinhas"
-},
-{
   "recipe_id": "5658c4e5c10bf823",
   "title": "Marmelada caseira de figos / Homemade fig jam",
   "ingredients": [
@@ -1453,6 +1440,26 @@
   ],
   "preparation": "1. O día anterior, sacámoslle o rabecho aos figos, pesámolos e engadimos 300 gramos de azucre por cada quilo de figos. Como eran 2 quilos, botamos 300 de moreno e 300 de branco, mais podedes usar todo branco ou todo moreno. Remexemos todo ben e deixamos que os ingredientes se integren ben durante toda a noite na neveira. 2. Ao día seguinte, só temos que poñer a mestura a cocer a lume baixo durante aproximadamente unha hora e media. Todo depende da cantidade de figos e da cociña de cada un. Non vos esquezades de remexer a marmelada de vez en cando, procurando que non se vos pegue. Mentres coce a marmelada, engadimos a cullerada de esencia de vainilla. 3. Para esterilizar os botes, temos que poñelos a ferver cun trapo sobre a base da pota para que non se golpeen durante uns 30 minutos. 4. Despois poñémolos a secar boca abaixo. Enchemos cada bote coa marmelada, tapamos e volvemos ferver durante outros 30 minutos. (A auga debe cubrir os botes por completo). Así, poderemos conservar a nosa marmelada durante máis tempo 🙂 Listo! A marmelada de figos é unha marmelada cunha textura moi suave e un intenso sabor moi doce a figos. Ademais de para facer unhas boas torradas para almorzar, podedes empregar esta marmelada para moitas outras cousas, como recheo para biscoitos, para botar nun iogur natural e darlle un toque doce e de froita, ou para untar sobre galletas ou calquera outra lambonada. E sobre todo, é a mellor maneira de aproveitar uns figos tan estupendos e sabedeiros. Bo proveito!!!",
   "url": "https://kukinhas.com/2018/10/marmelada-caseira-de-figos-homemade-fig-jam/",
+  "source": "Kukinhas"
+},
+{
+  "recipe_id": "a2f80683d55dd289",
+  "title": "Mariñeiras con tartar de salmón / Mariñeiras with salmon tartare",
+  "ingredients": [
+    "Ingredientes para unhas 10/12 mariñeiras:",
+    "200 gramos de salmón",
+    "1/2 cebola",
+    "1/2 cogombro",
+    "2 culleradas de sementes de sésamo",
+    "1 cullerada de zume de lima",
+    "1 cullerada de prebe de soia",
+    "1 culleradiña de aceite de sésamo",
+    "1 culleradiña de aceite de xirasol",
+    "10/12",
+    "mariñeiras daveiga"
+  ],
+  "preparation": "1. Cortamos o salmón en cadrados. 2. Picamos a cebola. 3. E o cogombro. 4. Botamos todo enriba do salmón xunto coas sementes de sésamo, o zume de lima, a soia, o aceite de sésamo e o aceite de xirasol. Remexemos ben e axudándonos de dúas culleres, imos poñendo o tartar de salmón sobre as mariñeiras. E listo! Como xa vos dixen, estas mariñeiras son moi crocantes e o mellor é que despois dun tempo tendo o tartar enriba, aínda seguían estando crocantes, algo que me gusta moito, pois tomar un petisco coa base húmida non me gusta nada. Estas que empreguei eu eran a variedade con aceite de oliva virxe extra, mais hai especiais para petiscos, por se queredes probar. Estou segura de que con calquera delas estará de vicio! O tartar de salmón está de vicio e poder tomalo así dunha trabada e coas mans é un verdadeiro pracer. Xa vedes que se fai máis axiña do que vos levará ler a receita 🙂 Así que animádevos e xa veredes como repetiredes! Bo proveito!!!",
+  "url": "https://kukinhas.com/2017/02/marineiras-tartar-salmon-marineiras-with-salmon-tartare/",
   "source": "Kukinhas"
 },
 {
@@ -2911,23 +2918,6 @@
   ],
   "preparation": "1. Picamos os pistachos e as framboesas. 2. Derretemos no microondas (sempre vixiando para que non se nos queime)o chocolate branco e maila manteiga. 3. Ao que xa estean ben desfeitos, engadimos o resto dos ingredientes e mesturamos ben. Non vos asustedes se vedes que a masa queda moi espesa, é así 😉 4. Engadimos os pistachos e mesturamos de novo. 5. Nun molde forrado con papel de aluminio, botamos e esparexemos ben unha capa de masa e imos colocando as framboesas. Cubrimos co resto da masa e enfornamos durante uns 25 minutos a 180ºC ou ata que vexamos que por riba colle unha lixeira cor dourada e un escarvadentes cravado no centro saia limpo ou con algún anaquiño pegado. E listo!!! Agora só temos que agardar a que arrefríe para cortalo, senón corremos o risco de que se desfaga. Cos blondies pasa o mesmo que cos brownies, ao día seguinte aínda están máis bos 😀 As framboesas danlle un toque fresquiño que lle queda de medo! Por estes blondies, ben paga a pena facer un sacrificio 😉 Por certo, eu só lle botei 100 gramos de azucre porque considero que o chocolate branco é moi doce, de todas maneiras, se alguén o quere máis doce, ata 150 gramos creo que non sería pasarse 😀 Bo proveito!",
   "url": "https://kukinhas.com/2015/09/blondies-de-pistachos-e-framboesas-pistachio-and-raspberries-blondies/",
-  "source": "Kukinhas"
-},
-{
-  "recipe_id": "4050bb0e06c57cdc",
-  "title": "Biscoito de té verde matcha / Matcha sponge cake",
-  "ingredients": [
-    "Ingredientes para un biscoito ben xeitoso de té verde matcha**:",
-    "3 ovos (se son da casa, mellor)",
-    "1 iogur (sen azucre e natural)",
-    "2 vasos de iogur de azucre",
-    "2 vasos de iogur de fariña",
-    "uns 75 gramos de té verde matcha",
-    "1 sobre de fermento químico",
-    "**Eu digo que é xeitoso, mais sabe taaan ben que o mesmo día que o fixemos pola tarde, xa quedaba só a metade. Xa con iso volo digo todo 😀"
-  ],
-  "preparation": "1. Comezamos polo paso básico para que nos quede un biscoito ben esponxoso. Para iso, separamos as claras das xemas e batemos as claras a punto de neve. Kukiconsello: se lle botades un chisco de sal, tardan menos en subir. 2. E a continuación, iremos engadindo o resto dos ingredientes: o iogur, o azucre, a fariña, o matcha e o fermento. 3. Botamos todo no molde… 4. …e enfornamos durante uns 30-40 minutos a 180 graos. Se o voso forno ten a opción de ventilador, poñédello. Se non, ha saír igual, así que non hai problema. E listo! Gústame moito ver a cor verde do biscoito antes de entrar no forno e como este se volve totalmente marrón cando sae. Recórdame ás cores de outono, e como vai cambiando a paisaxe de verde a marrón. Isto que vou dicir xa o dixen máis dunha vez, mais que ben saen estas receitas sen ter unhas cantidades exactas! Eu antes sempre que facía unha receita, obsesionábame con seguir o paso a paso e cada gramo ao pé da letra, agora todo o contrario! Guíome pola intuición, ou polo que me pide o corpo cando a estou a facer, e o certo é que así gózase moito máis da cociña e saen pratos moito máis persoais e ao gusto de cada un. Para rematar esta lambetada, podedes engadirlle un pouco de chocolate branco, que sempre lle queda moooi ben ao matcha. Eu, por suposto, fíxeno, así teño xuntas as miñas 3 paixóns 😉 Bo proveito!",
-  "url": "https://kukinhas.com/2017/05/biscoito-de-te-verde-matcha-matcha-sponge-cake/",
   "source": "Kukinhas"
 },
 {
